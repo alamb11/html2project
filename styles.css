@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+.musicvideos {font-family:"Alt Gothic ATF Book";
+        color:darkred;
+        font-size:25px}
+.alltoowell {font-family:"American Typewriter";
+color:#650604;
+font-size:15px}
+.thinkaboutme {font-family:"American Typewriter";
+color:#650604;
+    font-size:15px}
+.awards {font-family:"Alt Gothic ATF Book";
+color:darkred;
+font-size:25px}
+table {font-family:"American Typewriter";
+color:#650604;
+font-size:15px;
+width:75%;
+border-collapse:collapse}
+th, td {text-align:left;
+padding:5px}
