@@ -11,6 +11,9 @@
 	text-align:center}
 	.container	{text-align:center}
 </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -49,12 +52,22 @@
 		<li>All Too Well (10 Minute Version)(From the Vault)</li>
 	</ul>
 	</div>
+    <h2 style="font-family:Caveat;color:darkred;text-align:left"><u>My Favorites</u></h2>
+    <p style="font-family:Caveat;color:darkred">Nothing New, I Bet You Think About Me, Begin Again, State of Grace (Acoustic Version), All Too Well (10 Minute Version)</p>
     <hr>
     <form>
         <label for="song">What is your favorite song from Red (Taylor's Version)?</label><br>
+        <input type="text" id="song">
         <br>
-        <input type="text" id="song" name="song">
-        <input type="submit" value="Submit">
-    </form>
+        <label for="rating">What would you rate Red (Taylor's Version) on a scale from 1-10?</label><br>
+        <input type="text" id="rating">
+        <br>
+        <label for="video">What is your favorite music video for Red (Taylor's Version)?</label><br>
+        <input type="radio" id="atw">
+        <label for="atw">All Too Well: The Short FIlm</label><br>
+      <input type="radio" id="ibytab">
+        <label for="ibytab">I Bet You Think About Me</label><br>
+        <input type="submit" id="submit">
+</form>
 </body>
 </html>
